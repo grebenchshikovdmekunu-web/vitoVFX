@@ -231,7 +231,7 @@ header {
 
 .grid { display: grid; gap: 32px; }
 .horizontal-grid { grid-template-columns: 1fr 1fr; }
-.vertical-grid { grid-template-columns: 1fr 1fr; max-width: 760px; margin: 0 auto; }
+.vertical-grid { grid-template-columns: 1fr 1fr 1fr; }
 
 .case { display: flex; flex-direction: column; }
 
@@ -423,7 +423,7 @@ footer { padding: 48px 0; border-top: 1px solid var(--border); }
     .stat:last-child { border-bottom: none; }
     .stat-divider { display: none; }
     .horizontal-grid { grid-template-columns: 1fr; }
-    .vertical-grid { grid-template-columns: 1fr; max-width: 360px; }
+    .vertical-grid { grid-template-columns: 1fr; }
     .services-grid { grid-template-columns: 1fr; }
     .service-card { border-right: none; border-bottom: 1px solid var(--border); }
     .service-card:last-child { border-bottom: none; }
